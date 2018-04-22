@@ -7,15 +7,16 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/randomNum"
+        android:id="@+id/getSummary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="?android:attr/listChoiceIndicatorSingle" />
 
     <TextView
-        android:id="@+id/numText"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:id="@+id/summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
         tools:layout_editor_absoluteX="152dp"
         tools:layout_editor_absoluteY="246dp" />
 
